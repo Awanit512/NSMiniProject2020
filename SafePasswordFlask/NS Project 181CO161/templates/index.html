@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    Use of a One - Way Hash without a Salt or Predictable Salt
+</h1>
+<h2 class="subtitle">
+   <u> CS463 - Network Security Project Report </u>
+</h2>
+<br>
+<p>
+    World comprehensive web security is a set of procedures, policies, and technologies for ensuring the web servers, browsers, and other programs that communicate with the web servers and the internet infrastructure's reliability and predictability. Password and data transfer are secured using a variety of encryption algorithms, cryptographic protocols, and cryptology algorithms. With the emerging threat of losing privacy and data-stealing activity, securing the passwords stored in the database is required. 
+
+</p>
+
+<br>
+<br><br>
+<p>The <b>Threat</b> posed by <b>CWE-759</b> and <b>CWE-760</b> is related to <b>Access Control</b>.
+The compromise of password can expose users’ secrecy, authorization, and au-
+thentication to serious threats. By stealing a password, an attacker can get over
+the security system and obtain access to sensitive information or assume another
+person’s identity</p>
+
+<br>
+<br>
+<br>
+
+<p>
+    
+    <b>Common Weakness Enumeration </b>(CWE) is a community-developed list of common software and hardware weakness types that have security ramifications. “Weaknesses” are flaws, faults, bugs, or other errors in software or hardware implementation, code, design, or architecture that if left unaddressed could result in systems, networks, or hardware being vulnerable to attack. The CWE List and associated classification taxonomy serve as a language that can be used to identify and describe these weaknesses in terms of CWEs .
+<br>
+Passwords were previously saved in plain text in the database. In today's world, storing the password in plain text is extremely dangerous. Storing passwords in plaintext puts them at danger of being stolen if the database is hacked. It could lead to a forged login and a breach of privacy. After that, it became common practise to store passwords as hashes. The practise employs a one-way cryptographic hash against a non-reversible input, such as a password. Nonetheless, as with <b>CWE-759</b><b>CWE759</b>, the software does not use salt as part of the input. As a result, it makes the scenario prone to a Rainbow Table attack.
+</p>
+{% endblock %}
