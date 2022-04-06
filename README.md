@@ -12,7 +12,7 @@ To Run the Project
 
 
 To run the code First Get in to the SafePasswordFlask  directory
-After that 
+After that (FOR UBUNTU OS)
 
 
 #
