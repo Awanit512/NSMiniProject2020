@@ -5,7 +5,7 @@ A mini project for the course CS463 on the CWE -759 &amp; CWE - 760
 To Run the Project 
 
 
-	git clone 
+	git clone https://github.com/Awanit512/NSMiniProject2020.git
 
 
 	cd NSMiniProject2020
